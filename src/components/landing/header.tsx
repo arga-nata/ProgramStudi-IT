@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ChevronDownIcon, SearchIcon } from "lucide-react"
 
 import { MobileNav } from "@/components/landing/mobile-nav"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { mainNav, siteConfig } from "@/config/site"
 import { getSiteStats } from "@/data/stats"
 
@@ -79,6 +80,7 @@ export async function Header() {
           >
             <SearchIcon className="size-4" />
           </Link>
+          <ThemeToggle />
           <MobileNav />
         </div>
       </div>

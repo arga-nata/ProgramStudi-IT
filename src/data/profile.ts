@@ -53,7 +53,7 @@ const dummy: ProgramProfile = {
     { label: "Fakultas", value: "Fakultas Teknik dan Informatika" },
     { label: "Perguruan Tinggi", value: "Universitas Islam Balitar" },
     { label: "Gelar Lulusan", value: "S.Kom. (Sarjana Komputer)" },
-    { label: "Akreditasi", value: "[Peringkat akreditasi] — BAN-PT/LAM Infokom" },
+    { label: "Akreditasi", value: "[Peringkat akreditasi] (BAN-PT/LAM Infokom)" },
     { label: "SK Penyelenggaraan", value: "[Nomor SK dan tanggal]" },
     { label: "Lama Studi Normal", value: "4 tahun (8 semester), 144 SKS" },
   ],

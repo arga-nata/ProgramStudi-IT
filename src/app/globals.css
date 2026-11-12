@@ -120,6 +120,28 @@
   --glow-text: var(--c-pearl);
 }
 
+.light {
+  --background: #fbf9fe;
+  --foreground: #120e1c;
+  --card: #ffffff;
+  --card-foreground: #120e1c;
+  --popover: #ffffff;
+  --popover-foreground: #120e1c;
+  --primary: #6d28d9;
+  --primary-foreground: #ffffff;
+  --secondary: #ede7f6;
+  --secondary-foreground: #120e1c;
+  --muted: #f3eef9;
+  --muted-foreground: #5e586c;
+  --accent: #ece4f8;
+  --accent-foreground: #120e1c;
+  --border: #dfd7eb;
+  --input: #cfc4e0;
+  --ring: #6d28d9;
+  --c-mist: #120e1c;
+  --c-plum-card: #ffffff;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

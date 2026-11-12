@@ -51,9 +51,9 @@ export function PageHeader({
       </Breadcrumb>
 
       <Reveal>
-        <p className="mt-4 font-mono text-xs tracking-[0.35em] text-lavender uppercase">
+        <span className="mt-4 inline-block text-xs font-semibold tracking-wider text-primary uppercase">
           {eyebrow}
-        </p>
+        </span>
         <h1 className="mt-2 font-heading text-3xl font-extrabold sm:text-4xl">
           {title}
         </h1>

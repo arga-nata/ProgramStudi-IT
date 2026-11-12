@@ -7,9 +7,9 @@ export function Identitas({ items }: { items: IdentitasItem[] }) {
   return (
     <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 md:py-16">
       <Reveal>
-        <p className="font-mono text-xs tracking-[0.35em] text-lavender uppercase">
+        <span className="text-xs font-semibold tracking-wider text-primary uppercase">
           Identitas
-        </p>
+        </span>
         <h2 className="mt-2 font-heading text-2xl font-extrabold sm:text-3xl">
           Identitas Program Studi
         </h2>

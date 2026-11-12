@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArrowRightIcon } from "lucide-react"
 import { cn } from "cn"
 
 import { buttonVariants } from "@/components/ui/button"
@@ -26,7 +25,7 @@ export function Cta() {
             <span className="text-lime">Teknik Informatika</span>?
           </h2>
           <p className="max-w-md text-sm text-muted-foreground sm:text-base">
-            Bangun masa depanmu bersama kami — belajar, meneliti, dan berkarya
+            Bangun masa depanmu bersama kami: belajar, meneliti, dan berkarya
             di tengah perkembangan teknologi yang terus bergerak cepat.
           </p>
         </Reveal>
@@ -40,7 +39,6 @@ export function Cta() {
             )}
           >
             Daftar Sekarang
-            <ArrowRightIcon className="size-4" />
           </Link>
           <Link
             href="/informasi/kontak"
